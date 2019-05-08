@@ -1,0 +1,25 @@
+.main {
+  background-color: aqua;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  background-color: blueviolet;
+  width: 150px;
+  height: 150px;
+  border: 2px solid saddlebrown;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 100%;
+  }
+  .card {
+    background-color: orchid;
+  }
+}
